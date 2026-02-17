@@ -29,5 +29,5 @@ JavaScript (ES6)
 
 HTML Audio API
 
-🌐 Live Demo
+## 🌐 Live Demo
 https://mahgolhosseini.github.io/music-player/
