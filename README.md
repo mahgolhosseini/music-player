@@ -1,28 +1,33 @@
-# FlixLookUp 🎬
-📝 Project Description
-A web application that allows users to search for movies and view essential information such as title, release year, and poster images using a public movie API. Built with HTML, CSS, and JavaScript, this app helps users quickly explore and discover movies through a clean and responsive interface.
+# Music Player 🎵
+## 📝 Project Description
+
+A responsive web-based music player that allows users to play, pause, and navigate between songs. The application displays song title, artist name, duration, and includes an interactive progress bar and volume control. Built using HTML, CSS, and JavaScript, this project demonstrates DOM manipulation and audio control functionality.
 
 ## 🚀 Features
-Search movies by name
 
-Display movie title, release year, and poster
+Play and pause audio
 
-Real-time data fetched from an external API
+Next and previous song navigation
 
-Responsive grid layout for mobile and desktop
+Display song title, artist, and duration
 
-Clean UI with styled header and footer
+Interactive progress bar (click to seek)
+
+Volume control slider
+
+Automatic play of next track
+
+Responsive and modern glassmorphism UI
 
 ## 💻 Technologies Used
+
 HTML5
 
-CSS3 (Flexbox, Grid)
+CSS3 (Flexbox, Glassmorphism design, Transitions)
 
 JavaScript (ES6)
 
-Fetch API for real-time data
+HTML Audio API
 
-Movie API (OMDb API)
-
-## 🌐 Live Demo
+🌐 Live Demo
 https://mahgolhosseini.github.io/music-player/
