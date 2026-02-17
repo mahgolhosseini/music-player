@@ -1,0 +1,100 @@
+body{
+    margin:0;
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #1a1c31, #183129);
+}
+
+.player{
+    background:rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(18px);
+    -webkit-backdrop-filter: blur(18px);
+    border: 1px solid rgba(255,255,255,0.15);
+    box-shadow: 0 8px 32px rgba(0,0,0,0.4);
+    border-radius: 16px;
+    width: 340px;
+    padding: 25px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.progress-container{
+    height:6px;
+    background:rgba(255,255,255,0.2);
+    margin:15px 0;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.progress{
+    height: 100%;
+    width: 0%;
+    background:#00ffc3;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 255, 195, 0.6);
+    transition: width 0.2s linear;
+}
+.controls{
+    margin:15px 0;
+}
+.controls button{
+    background:rgba(255,255,255,0.15);
+    border: none;
+    border-radius: 10%;
+    padding:12px;
+    margin:0 10px;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+    transition: 0.2s ease;
+}
+
+.controls button:hover{
+    background: rgba(255,255,255,0.3);
+    transform:scale(1.1);
+
+}
+.time{
+    display:flex;
+    justify-content: space-between;
+    font-size: 13px;
+    margin-bottom: 15px;
+    opacity: 0.85;
+}
+.volume{
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+#title{
+    margin-bottom: 5px;
+}
+#artist{
+    font-weight: normal;
+    font-size: 14px;
+    opacity: 0.8;
+    margin-bottom: 15px;
+}
+
+#volume{
+    width:100%;
+    margin-top: 5px;
+}
+#playlist{
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+    text-align: left;
+}
+#playlist li{
+    padding:8px;
+    border-radius:8px;
+    background: rgba(255,255,255,0.12);
+    margin-bottom :6px;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+#playlist li:hover{
+    background: rgba(255,255,255,0.25);
+}

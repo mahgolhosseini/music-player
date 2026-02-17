@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width , initial-scale=1.0">
+        <title> Music player</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+        <div class="player">
+            <h2 id="title">Song title</h2>
+            <h3 id="artist">Artist</h3>
+          
+            <audio id="audio"></audio><!--its an empty element that later with js it turns to a station for playing the music-->
+            <div class="progress-container" id="progress-container"><!--full song-->
+            <div class="progress" id="progress"><!--played part of music--> </div>
+            </div>
+
+            <div class="time">
+            <span id="current-time">00:00</span> <!-- time that already music played-->
+            <span id="duration">0:00</span><!-- total of the music-->
+            </div>
+
+            <div class="controls"><!-- its for controling the music-->
+                <button onclick="prevSong()">⏮</button>
+                <button onclick="togglePlay()">⏸</button>
+                <button onclick="nextSong()">⏭</button>
+            </div>
+
+            <div class="volume"><!--volume button-->
+                Volume
+                <input type="range" id="volume" min="0" max="1" step="0.01">
+            </div>
+
+            <ul id="playlist"></ul>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
